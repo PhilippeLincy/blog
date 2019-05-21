@@ -1,0 +1,339 @@
+baseURL = "http://philippelincy.site/"
+languageCode = "en-us"
+title = "Doudoumba"
+theme = "hugo-agency-theme"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+publishDir = "public"
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Doudoumba"
+  description = "Doudoumba - African Drumming Journey"
+  # email = "philippelincy@gmail.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "DudumbaDrum.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "Doudoumba"
+    # Optional logo as brand stored in img/
+   logo = "AfricanDrummer.PNG"
+    title = "Doudoumba"
+    services = "Entertain"
+    education = "Teach"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https:/www.facebook.com/philippe.lincy"
+      name = "Philippe Lincy"
+      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.D
+    enable  = true
+    title = "Philippe Lincy"
+    subtitle = "Doudoumba"
+    buttonText = "Tell me more"
+    btnURL  = "https://themefisher.com/"
+    videoThumb = "img/video-player-thumb.jpg"
+    videoURL   = "https://www.youtube.com/embed/0Px7rkUG4ls"
+
+
+# Video section
+#  [params.video]
+#        enable  = true
+#        heading = "FRANCAIS We love to make brands grow"
+#        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+#        button  = true
+#        btnText = "Know More"
+#        btnURL  = "https://themefisher.com/"
+#        
+Thumb = "images/slider/video-player-thumb.jpg"
+#        videoURL   = "https://www.youtube.com/embed/0Px7rkUG4ls"
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Team Building & Entertainment"
+    subtitle = "."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-shopping-cart"
+      title = "Festivals - Traditionnal African Drumming"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-building"
+      title = "Corporate"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-lock"
+      title = "Parties"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+  # Education section
+  [params.education]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Teaching"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [params.education.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "About"
+    subtitle = "Doudoumba journey started in 1988."
+    endpoint = "Be part<br>of Philippe<br>journey!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "1974-2011"
+      title = "Our Humble Beginnings"
+      description = "Philippe began learning percussion at the age of 9. His career as teacher and performer began in earnest in 1974, accompanying the Grand Ballet de l'Afrique Noire, which performed at the Georges Pompidou Centre in Paris"
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "1990-2000"
+      title = "World Tours"
+      description = "Philippe went on to tour around the world with the company for several years. he has had a prolific and varied musical career, having spent much of it working and living in West Africa. In Australia, he has performed with Marcia Hines, Jenny Morris, James Morrison, in Cirque du Soleil, and The Lion King, and with Salif Keita at the Womadelaide festival."
+
+    [[params.about.events]]
+      img = "6.jpg"
+      date = "September 2000"
+      title = "Sydney 2000 Games"
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "October 2018"
+      title = "Master in Music teaching"
+      description = "Philippe started his master to complete his studying in 2016. Since he has been teaching professionnals and schools. He does regular classes at the following campuses: Merivale Primary School???"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "2016-2019"
+      title = "Moussa Diabate"
+      description = "Philippe joined Moussa Diabate and his band."
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Doudoumba team"
+    subtitle = "We love to sharing our passion for music."
+    description = "With more than 20 years experience, Doudoumba is coming wherever you are to perform."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Philippe Lincy"
+      position = "Founder of Doudoumba"
+      reportsTo = ""
+      livesIn = "[Sydney, Australia](#some-maps-url)"
+      scope = [
+        "Organiser [Business Location](#)",
+        "African Team Building [Blog](http://africanteambuilding.blogspot.com#)",
+        "Education Entertainer [Master](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Philippe is born in the West Indies.
+He started a career as teacher and performer in 1974."""
+      social = [
+        ["fa-facebook", "https:/www.facebook.com/philippe.lincy#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/philippe-lincy-4835a750#"],
+        ["fa-soundcloud", "https://soundcloud.com/user-655207067#"]
+        ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Marylin"
+      position = "Lead Singer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"]
+        ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Steve O'Farrell"
+      position = "Bass player"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+  # Client section
+    [params.clients_list]
+      enable = true
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+ 
+      [[params.clients]]
+        logo = "unsw.jpg"
+        link = "#"     
+
+      [[params.clients]]
+        logo = "Bridgestone.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "Canteen.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "Microsoft.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "telstra.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "optus.jpg"
+        link = "#"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "Start your African Drumming Journey with Philippe Lincy"
+    buttonText = "Send message"
+    # netlify = true
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "philippelincy@gmail.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    [params.contact.captcha]
+      # sitekey = ""
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Copyright Thing12 Network"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+      title = "Facebook"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"
