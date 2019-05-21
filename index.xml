@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Doudoumba</title>
-    <link>http://philippelincy.github.io/</link>
+    <link>https://philippelincy.github.io/</link>
     <description>Recent content on Doudoumba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://philippelincy.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://philippelincy.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AI What&#39;s the question again?</title>
-      <link>http://philippelincy.github.io/post/ai-what-the-question-again/</link>
+      <link>https://philippelincy.github.io/post/ai-what-the-question-again/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://philippelincy.github.io/post/ai-what-the-question-again/</guid>
+      <guid>https://philippelincy.github.io/post/ai-what-the-question-again/</guid>
       <description> Introduction </description>
     </item>
     
