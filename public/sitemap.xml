@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://philippelincy.site/post/ai-what-the-question-again/</loc>
+    <loc>http://philippelincy.github.io/post/ai-what-the-question-again/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://philippelincy.site/categories/</loc>
+    <loc>http://philippelincy.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://philippelincy.site/</loc>
-    <lastmod>2019-04-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://philippelincy.site/post/</loc>
+    <loc>http://philippelincy.github.io/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://philippelincy.site/tags/</loc>
+    <loc>http://philippelincy.github.io/post/</loc>
+    <lastmod>2019-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://philippelincy.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

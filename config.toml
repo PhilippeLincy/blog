@@ -1,4 +1,4 @@
-baseURL = "http://philippelincy.site/"
+baseURL = "http://philippelincy.github.io/"
 languageCode = "en-us"
 title = "Doudoumba"
 theme = "hugo-agency-theme"
@@ -76,7 +76,6 @@ publishDir = "public"
     btnURL  = "https://themefisher.com/"
     videoThumb = "img/video-player-thumb.jpg"
     videoURL   = "https://www.youtube.com/embed/0Px7rkUG4ls"
-
 
 # Video section
 #  [params.video]
