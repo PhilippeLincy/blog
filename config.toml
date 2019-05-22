@@ -1,4 +1,5 @@
 baseURL = "https://philippelincy.github.io/doudoumba/"
+# Add /doudoumba/ for Production in GitHub Project"
 languageCode = "en-us"
 title = "Doudoumba"
 theme = "hugo-agency-theme"
@@ -18,7 +19,7 @@ publishDir = "public"
   # information about you and your website.
   name = "Doudoumba"
   description = "Doudoumba - African Drumming Journey"
-  # email = "philippelincy@gmail.com"
+  email = "philippelincy@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -58,13 +59,27 @@ publishDir = "public"
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the values with your own.
 
-    # postpended links
     [[menu.postpend]]
-      url = "https:/www.facebook.com/philippe.lincy"
-      name = "Philippe Lincy"
-      weight = 10
+      name = "Flyers"
+      identifier = "menuflyers"
+      weight = 100
+      url = "/files"
 
+    [[menu.postpend]]
+      name = "The Magic Of Drumming"
+      weight = 1
+      parent = "menuflyers"
+      identifier = "MenuDrum1"
+      url = "/files/flyers/themagicofdrumming.pdf"
 
+    [[menu.postpend]]
+      name = "The Languague of Drums"
+      weight = 2
+      parent = "menuflyers"
+      identifier = "MenuDrum2"
+      url = "/files/flyers/thelanguagueofdrums.pdf"
+
+  
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
@@ -98,7 +113,7 @@ Thumb = "images/slider/video-player-thumb.jpg"
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
+      icon = "fa-music"
       title = "Festivals - Traditionnal African Drumming"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
@@ -110,7 +125,7 @@ Thumb = "images/slider/video-player-thumb.jpg"
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      icon = "fa-glass"
       title = "Parties"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
@@ -136,7 +151,7 @@ Thumb = "images/slider/video-player-thumb.jpg"
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Doudoumba journey started in 1988."
+    subtitle = "Doudoumba journey started in 1985."
     endpoint = "Be part<br>of Philippe<br>journey!"
 
     # The events will be listed from the top to the bottom.
@@ -144,26 +159,33 @@ Thumb = "images/slider/video-player-thumb.jpg"
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "1974-2011"
+      date = "1974-1985"
       title = "Our Humble Beginnings"
       description = "Philippe began learning percussion at the age of 9. His career as teacher and performer began in earnest in 1974, accompanying the Grand Ballet de l'Afrique Noire, which performed at the Georges Pompidou Centre in Paris"
 
     [[params.about.events]]
+      img = "europetour.jpg"
+      date = "1980-1985"
+      title = "Europe Tour"
+      description = "Philippe accompanying the Grand Ballet de l'Afrique Noire, which performed at the Georges Pompidou Centre in Paris"
+
+    [[params.about.events]]
+      img = "doudoumbacreation.jpg"
+      date = "1985-1990"
+      title = "Doudoumba"
+      description = "Philippe created and managed Doudoumba.  – African percussion group Expo ’88 Soul - Musical Lyric Theatre with Marcia Hines, Tina Arena, Mark Williams (Brisbane) Sydney Fringe Festival (Sydney) Super League Cricket, Sydney Showground (Sydney) The Door’s Festival (Sydney) Festival of Asian Music and Dance (Sydney)  Womad Festival (Adelaide)"
+
+    [[params.about.events]]
       img = "2.jpg"
-      date = "1990-2000"
-      title = "World Tours"
-      description = "Philippe went on to tour around the world with the company for several years. he has had a prolific and varied musical career, having spent much of it working and living in West Africa. In Australia, he has performed with Marcia Hines, Jenny Morris, James Morrison, in Cirque du Soleil, and The Lion King, and with Salif Keita at the Womadelaide festival."
+      date = "1990-2018"
+      title = "Australian and New Zealand Tours"
+      description = "Philippe went on to tour around the world with the company for three decades. he has had a prolific and varied musical career, having spent much of it working and living in West Africa. In Australia, he has performed with Marcia Hines, Jenny Morris, James Morrison, in Cirque du Soleil, and The Lion King, and with Salif Keita at the Womadelaide festival."
 
     [[params.about.events]]
-      img = "6.jpg"
-      date = "September 2000"
-      title = "Sydney 2000 Games"
-
-    [[params.about.events]]
-      img = "3.jpg"
+      img = "MasterDiploma.jpg"
       date = "October 2018"
       title = "Master in Music teaching"
-      description = "Philippe started his master to complete his studying in 2016. Since he has been teaching professionnals and schools. He does regular classes at the following campuses: Merivale Primary School???"
+      description = "Philippe started his master to complete his studying in 2016. Since he has been teaching professionnals and schools."
 
     [[params.about.events]]
       img = "4.jpg"
@@ -192,7 +214,7 @@ Thumb = "images/slider/video-player-thumb.jpg"
       scope = [
         "Organiser [Business Location](#)",
         "African Team Building [Blog](http://africanteambuilding.blogspot.com#)",
-        "Education Entertainer [Master](#)"
+        "Resume [2019](./files/cv.pdf)"
       ]
       # For bio markdown and even multiline strings are available.
       bio = """Philippe is born in the West Indies.
@@ -205,21 +227,12 @@ He started a career as teacher and performer in 1974."""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Marylin"
-      position = "Lead Singer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"]
-        ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Steve O'Farrell"
-      position = "Bass player"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+      name = "Lucky Lartey"
+      bio = """Lucky Lartey is a West African Performer with more than 18 years of training and experience in Traditional African dance and Afro Contemporary."""
+      position = "Dancer"
+      livesIn = "[Sydney, Australia](#some-maps-url)"
+      scope = [
+        "Lucky African Dance Company [Business](https://www.luckyafricandance.com.au/about#)"
       ]
 
   # Client section
@@ -262,6 +275,11 @@ He started a career as teacher and performer in 1974."""
   [params.contact]
     enable = true
     title = "Contact us"
+    social = [
+        ["fa-facebook", "https:/www.facebook.com/philippe.lincy#"]
+    ]
+    phonenumber = "0414 370 885"
+    icon = "fa-phone"
     subtitle  = "Start your African Drumming Journey with Philippe Lincy"
     buttonText = "Send message"
     # netlify = true
@@ -284,14 +302,14 @@ He started a career as teacher and performer in 1974."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "philippelincy@gmail.com"
+    email = "philippe.rene.fouquet@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+      sitekey = "6LcH6qQUAAAAAGZeum5a0okPxT77ezA0sz4wBMOq"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -323,11 +341,6 @@ He started a career as teacher and performer in 1974."""
   [params.footer]
     enable = true
     copyright = "Copyright Thing12 Network"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
