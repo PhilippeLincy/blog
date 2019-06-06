@@ -96,7 +96,7 @@ publishDir = "public"
 #  [params.video]
 #        enable  = true
 #        heading = "FRANCAIS We love to make brands grow"
-#        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+#        description = ""
 #        button  = true
 #        btnText = "Know More"
 #        btnURL  = "https://themefisher.com/"
@@ -115,19 +115,19 @@ Thumb = "images/slider/video-player-thumb.jpg"
     [[params.services.row.list]]
       icon = "fa-music"
       title = "Festivals - Traditionnal African Drumming"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-building"
       title = "Team Building with Corporate"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-glass"
       title = "World Music"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
   # Education section
@@ -138,7 +138,15 @@ Thumb = "images/slider/video-player-thumb.jpg"
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Teaching"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "The Performance experience is made up of four parts:"
+    part1 = "DJEMBEKAN"
+    part1title = "Djembe; Dununba; Kenkeni; Sangban (high to low pitched drums)"
+    part2 = "AFRICAN SONG"
+    part2title = "Shekere and Atenteben (rhythm and melody)"
+    part3 = "TALKING DRUMS"
+    part3title = "Tama and Dondn (chromatic drums)"
+    part4 = "AUDIENCE PARTICIPATION"
+    part4title = "the audience is invited and encouraged to join in, play the drums and dance to the ‘call of the drum’ (communication between the drumbeat and the dance)"
 
     [params.education.modal]
       client = "Client"
@@ -168,6 +176,7 @@ Thumb = "images/slider/video-player-thumb.jpg"
       date = "1985-1990"
       title = "Doudoumba"
       description = "Philippe moved to Sydney, Australia. He taught a Djembe drumming classes and accompanied Jeanine Claes as her drummer for West African dance classes. Philippe created and managed ‘Doudoumba’, an African percussion group He also played percussion for: ‘Soul ‘at Expo ’88; Marcia Hines; Tina Arena, Mark Williams; Sydney Fringe Festival; The Door’s Festival; Festival of Asian Music and Dance and Womad Festival."
+      performance = "Philippe’s ensemble, ‘Doudoumba’ supported the following artists plus many more Eg Anjelique Kidjo; Salif Keita; The Bhundu Boys; World Saxophone Quartet; Mahlathini and the Maotella Queens; Lucky Dube; Festival of the Winds; Osibe Festival of African Art; Festival Equinox (New Caledonia); Fire Walk with Anthony Robbins; Sydney To Hobart Yacht Race; Sydney Festival; Brisbane Jazz Festival with Dale Barlow; Fete de la Musique, New Caledonia); Taronga Zoo-Opening of Gorilla Park; Reconciliation Day 1997…"
 
     [[params.about.events]]
       img = "2.jpg"
@@ -176,7 +185,7 @@ Thumb = "images/slider/video-player-thumb.jpg"
       description = "Philippe featured as a percussionist with many artists Eg ‘Frenzy’- Aku Kadogo, Sydney Wharf Theatre; Pacific Tour with Monica Trapaga; Dave Barlow; Jenny Morris; Don Barrow; Kalabash African Electric Band; Dale Barlow -13th Street and Carl Orr Band…"
 
     [[params.about.events]]
-      img = "2.jpg"
+      img = "4.jpg"
       date = "2000-2019"
       title = "ASIA PAC Performing and Recording"
       description = "Philippe featured as a percussionist with many artists Eg Moussa Diakite; Womadelaide; Woodford Festival; Parramassala (Doudoumba); Lion King – opening, Private Party (Doudoumba); NAFAS, Sydney Sacred Musical; FIFA World Cup (Doudoumba); African Festival (Doudoumba, New Caledonia); Toured with Bijan Morteza - Persian group from Iran (Australia/New Zealand); TED X – Byron Bay (Doudoumba); Ehsan Khajeh Amiri – singer from Iran; supported ALPHA BLONDIE, Enmore Theatre; (Doudoumba); Faramarz Assef - Philippe featured as a percussionist with many artists singer from Iran; Malaria Eradication Function (Doudoumba); Emphasema Charity Fundraiser, Hilton Hotel; Sydney to Hobart Race (Sydney); United Nations for Africa Event (Doudoumba) Customs House (Sydney); THAI Airlines (Doudoumba), Hilton Hotel; Immigrant Resource Centre (Doudoumba) Marrickville/Lidcombe"
