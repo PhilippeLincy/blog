@@ -47,7 +47,7 @@ publishDir = "public"
   [params.navigation]
     brand = "Doudoumba"
     # Optional logo as brand stored in img/
-   logo = "AfricanDrummer.PNG"
+    logo = "newlogo.png"
     title = "Doudoumba"
     services = "Entertain"
     education = "Teach"
