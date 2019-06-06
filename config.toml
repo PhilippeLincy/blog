@@ -52,7 +52,7 @@ publishDir = "public"
     services = "Entertain"
     education = "Teach"
     about = "About"
-    team = "Team"
+    team = "Philippe"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -120,13 +120,13 @@ Thumb = "images/slider/video-player-thumb.jpg"
 
     [[params.services.row.list]]
       icon = "fa-building"
-      title = "Corporate"
+      title = "Team Building with Corporate"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-glass"
-      title = "Parties"
+      title = "World Music"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
@@ -161,45 +161,40 @@ Thumb = "images/slider/video-player-thumb.jpg"
       img = "1.jpg"
       date = "1974-1985"
       title = "Our Humble Beginnings"
-      description = "Philippe began learning percussion at the age of 9. His career as teacher and performer began in earnest in 1974, accompanying the Grand Ballet de l'Afrique Noire, which performed at the Georges Pompidou Centre in Paris"
-
-    [[params.about.events]]
-      img = "europetour.jpg"
-      date = "1980-1985"
-      title = "Europe Tour"
-      description = "Philippe accompanying the Grand Ballet de l'Afrique Noire, which performed at the Georges Pompidou Centre in Paris"
+      description = "Philippe began learning percussion at fifteen years old in Paris, under the guidance of Djembe Masters from West Africa.   His career as a performer began in 1974 when he accompanied Jeanine Claes, ‘Rhythm and Dancing’. This journey lead Philippe to perform with Le Grand Ballet d Afrique Noire in 1979 in Paris."
 
     [[params.about.events]]
       img = "doudoumbacreation.jpg"
       date = "1985-1990"
       title = "Doudoumba"
-      description = "Philippe created and managed Doudoumba.  – African percussion group Expo ’88 Soul - Musical Lyric Theatre with Marcia Hines, Tina Arena, Mark Williams (Brisbane) Sydney Fringe Festival (Sydney) Super League Cricket, Sydney Showground (Sydney) The Door’s Festival (Sydney) Festival of Asian Music and Dance (Sydney)  Womad Festival (Adelaide)"
+      description = "Philippe moved to Sydney, Australia. He taught a Djembe drumming classes and accompanied Jeanine Claes as her drummer for West African dance classes. Philippe created and managed ‘Doudoumba’, an African percussion group He also played percussion for: ‘Soul ‘at Expo ’88; Marcia Hines; Tina Arena, Mark Williams; Sydney Fringe Festival; The Door’s Festival; Festival of Asian Music and Dance and Womad Festival."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "1990-2018"
-      title = "Australian and New Zealand Tours"
-      description = "Philippe went on to tour around the world with the company for three decades. he has had a prolific and varied musical career, having spent much of it working and living in West Africa. In Australia, he has performed with Marcia Hines, Jenny Morris, James Morrison, in Cirque du Soleil, and The Lion King, and with Salif Keita at the Womadelaide festival."
+      date = "1990-2000"
+      title = "Sydney Performing and Recording"
+      description = "Philippe featured as a percussionist with many artists Eg ‘Frenzy’- Aku Kadogo, Sydney Wharf Theatre; Pacific Tour with Monica Trapaga; Dave Barlow; Jenny Morris; Don Barrow; Kalabash African Electric Band; Dale Barlow -13th Street and Carl Orr Band…"
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "2000-2019"
+      title = "ASIA PAC Performing and Recording"
+      description = "Philippe featured as a percussionist with many artists Eg Moussa Diakite; Womadelaide; Woodford Festival; Parramassala (Doudoumba); Lion King – opening, Private Party (Doudoumba); NAFAS, Sydney Sacred Musical; FIFA World Cup (Doudoumba); African Festival (Doudoumba, New Caledonia); Toured with Bijan Morteza - Persian group from Iran (Australia/New Zealand); TED X – Byron Bay (Doudoumba); Ehsan Khajeh Amiri – singer from Iran; supported ALPHA BLONDIE, Enmore Theatre; (Doudoumba); Faramarz Assef - Philippe featured as a percussionist with many artists singer from Iran; Malaria Eradication Function (Doudoumba); Emphasema Charity Fundraiser, Hilton Hotel; Sydney to Hobart Race (Sydney); United Nations for Africa Event (Doudoumba) Customs House (Sydney); THAI Airlines (Doudoumba), Hilton Hotel; Immigrant Resource Centre (Doudoumba) Marrickville/Lidcombe"
 
     [[params.about.events]]
       img = "MasterDiploma.jpg"
       date = "October 2018"
       title = "Master in Music teaching"
-      description = "Philippe started his master to complete his studying in 2016. Since he has been teaching professionnals and schools."
+      description = "In 2017, Philippe graduated from TAFE with a Diploma of Music and a Highly Commended - Advanced Diploma of Music Performance. In 2018, Philippe graduated from AIM (Australian Institute of Music) with a Post Graduate of Music."
 
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "2016-2019"
-      title = "Moussa Diabate"
-      description = "Philippe joined Moussa Diabate and his band."
 
   # Team section
   [params.team]
     enable = true
     # Possibility to center items
     #center = true
-    title = "Doudoumba team"
-    subtitle = "We love to sharing our passion for music."
+    title = "Philippe Lincy"
+    subtitle = "We love to sharing our passion for tradional drumming and modern percussion."
     description = "With more than 20 years experience, Doudoumba is coming wherever you are to perform."
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -225,16 +220,7 @@ He started a career as teacher and performer in 1974."""
         ["fa-soundcloud", "https://soundcloud.com/user-655207067#"]
         ]
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Lucky Lartey"
-      bio = """Lucky Lartey is a West African Performer with more than 18 years of training and experience in Traditional African dance and Afro Contemporary."""
-      position = "Dancer"
-      livesIn = "[Sydney, Australia](#some-maps-url)"
-      scope = [
-        "Lucky African Dance Company [Business](https://www.luckyafricandance.com.au/about#)"
-      ]
-
+    
   # Client section
     [params.clients_list]
       enable = true
