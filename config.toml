@@ -1,5 +1,5 @@
 baseURL = "https://philippelincy.github.io/doudoumba/"
-# Add /doudoumba/ for Production in GitHub Project"
+
 languageCode = "en-us"
 title = "Doudoumba"
 theme = "hugo-agency-theme"
