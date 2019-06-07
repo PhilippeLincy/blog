@@ -175,7 +175,7 @@ Thumb = "images/slider/video-player-thumb.jpg"
       img = "doudoumbacreation.jpg"
       date = "1985-1990"
       title = "Doudoumba"
-      description = "Philippe moved to Sydney, Australia. He taught a Djembe drumming classes and accompanied Jeanine Claes as her drummer for West African dance classes. Philippe created and managed ‘Doudoumba’, an African percussion group He also played percussion for: ‘Soul ‘at Expo ’88; Marcia Hines; Tina Arena, Mark Williams; Sydney Fringe Festival; The Door’s Festival; Festival of Asian Music and Dance and Womad Festival."
+      description = "Philippe moved to Sydney, Australia. He taught a Djembe [drumming classes](files/flyers/thelanguagueofdrums.pdf) and accompanied Jeanine Claes as her drummer for West African dance classes. Philippe created and managed ‘Doudoumba’, an African percussion group He also played percussion for: ‘Soul ‘at Expo ’88; Marcia Hines; Tina Arena, Mark Williams; Sydney Fringe Festival; The Door’s Festival; Festival of Asian Music and Dance and Womad Festival."
       performance = "Philippe’s ensemble, ‘Doudoumba’ supported the following artists plus many more Eg Anjelique Kidjo; Salif Keita; The Bhundu Boys; World Saxophone Quartet; Mahlathini and the Maotella Queens; Lucky Dube; Festival of the Winds; Osibe Festival of African Art; Festival Equinox (New Caledonia); Fire Walk with Anthony Robbins; Sydney To Hobart Yacht Race; Sydney Festival; Brisbane Jazz Festival with Dale Barlow; Fete de la Musique, New Caledonia); Taronga Zoo-Opening of Gorilla Park; Reconciliation Day 1997…"
 
     [[params.about.events]]
@@ -297,7 +297,7 @@ He started a career as teacher and performer in 1974."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "philippe.rene.fouquet@gmail.com"
+    email = "philippefouquet@mac.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
