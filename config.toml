@@ -276,7 +276,7 @@ He started a career as teacher and performer in 1974."""
     phonenumber = "0414 370 885"
     icon = "fa-phone"
     subtitle  = "Start your African Drumming Journey with Philippe Lincy"
-    buttonText = "Send message"
+    buttonText = "Send message with T12"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -295,16 +295,16 @@ He started a career as teacher and performer in 1974."""
     # as an example the mailout plugin from caddy.
     # Provide the post URL for the form and depending on the provider
     # add some custom JS script to finish the implementation.
-    # postURL = "https://example.com/mailout/"
+    postURL = "https://thing12network.com/"
 
-    email = "philippefouquet@mac.com"
+    email = "philippe@thing12network.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Thank you for awesomely contacting us."
+    error = "Message could not be send. Please contact us at philippe@thing12network.com instead."
 
-    [params.contact.captcha]
-      sitekey = "6LcH6qQUAAAAAGZeum5a0okPxT77ezA0sz4wBMOq"
+   [params.contact.captcha]
+   #   sitekey = "6LcH6qQUAAAAAGZeum5a0okPxT77ezA0sz4wBMOq"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
