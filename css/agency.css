@@ -562,6 +562,44 @@ section h3.section-subheading {
     margin-top: 20px;
 }
 
+.team-area-video {
+    height: 100vh;
+    position: inherit !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.team-area-video .block {
+    color: #fff;
+    text-align: center;
+}
+
+.team-area-video .block h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.team-area-video .block p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.team-area-video .block .btn-main,
+.team-area-video .block .btn-main-sm {
+    margin-top: 20px;
+}
+
 .timeline {
     position: relative;
     padding: 0;
