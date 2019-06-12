@@ -88,21 +88,8 @@ publishDir = "public"
     title = "Philippe Lincy"
     subtitle = "Doudoumba"
     buttonText = "Tell me more"
-    btnURL  = "https://themefisher.com/"
     videoThumb = "img/video-player-thumb.jpg"
     videoURL   = "https://www.youtube.com/embed/0Px7rkUG4ls"
-
-# Video section
-#  [params.video]
-#        enable  = true
-#        heading = "FRANCAIS We love to make brands grow"
-#        description = ""
-#        button  = true
-#        btnText = "Know More"
-#        btnURL  = "https://themefisher.com/"
-#        
-Thumb = "images/slider/video-player-thumb.jpg"
-#        videoURL   = "https://www.youtube.com/embed/0Px7rkUG4ls"
 
   # Services section
   [params.services]
@@ -206,6 +193,9 @@ Thumb = "images/slider/video-player-thumb.jpg"
     subtitle = "We love to sharing our passion for tradional drumming and modern percussion."
     description = "With more than 20 years experience, Doudoumba is coming wherever you are to perform."
 
+    videoThumb = "img/video-team-thumb.jpg"
+    videoURL   = "https://player.vimeo.com/video/340589428"
+
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
@@ -227,8 +217,7 @@ He started a career as teacher and performer in 1974."""
         ["fa-facebook", "https:/www.facebook.com/philippe.lincy#"],
         ["fa-linkedin", "https://www.linkedin.com/in/philippe-lincy-4835a750#"],
         ["fa-soundcloud", "https://soundcloud.com/user-655207067#"]
-        ]
-
+      ]
     
   # Client section
     [params.clients_list]
@@ -276,7 +265,7 @@ He started a career as teacher and performer in 1974."""
     phonenumber = "0414 370 885"
     icon = "fa-phone"
     subtitle  = "Start your African Drumming Journey with Philippe Lincy"
-    buttonText = "Send message with T12"
+    buttonText = "Send message buggy"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -295,17 +284,17 @@ He started a career as teacher and performer in 1974."""
     # as an example the mailout plugin from caddy.
     # Provide the post URL for the form and depending on the provider
     # add some custom JS script to finish the implementation.
-    postURL = "https://thing12network.com/"
+    # postURL = "https://thing12network.com/"
 
-    email = "philippe@thing12network.com"
+    email = "philippefouquet@mac.com"
 
     # Success and error message overwrite for async contact form
     thanks = "Thank you for awesomely contacting us."
     error = "Message could not be send. Please contact us at philippe@thing12network.com instead."
 
-   [params.contact.captcha]
-   #   sitekey = "6LcH6qQUAAAAAGZeum5a0okPxT77ezA0sz4wBMOq"
-
+    [params.contact.captcha]
+     sitekey = "6LcH6qQUAAAAAGZeum5a0okPxT77ezA0sz4wBMOq"
+   
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
       text = "Your Name *"
