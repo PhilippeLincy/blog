@@ -1,4 +1,4 @@
-baseURL = "https://philippelincy.github.io/doudoumba/"
+baseURL = "https://philippelincy.github.io/doudoumba"
 
 languageCode = "en-us"
 title = "Doudoumba"
@@ -258,14 +258,14 @@ He started a career as teacher and performer in 1974."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
+    title = "Call us"
     social = [
         ["fa-facebook", "https:/www.facebook.com/philippe.lincy#"]
     ]
     phonenumber = "0414 370 885"
     icon = "fa-phone"
     subtitle  = "Start your African Drumming Journey with Philippe Lincy"
-    buttonText = "Send message buggy"
+    buttonText = "Send message"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -286,14 +286,14 @@ He started a career as teacher and performer in 1974."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://thing12network.com/"
 
-    email = "philippefouquet@mac.com"
+    email = "Philippe.Rene.Fouquet@gmail.com"
 
     # Success and error message overwrite for async contact form
     thanks = "Thank you for awesomely contacting us."
     error = "Message could not be send. Please contact us at philippe@thing12network.com instead."
 
     [params.contact.captcha]
-     sitekey = "6LcH6qQUAAAAAGZeum5a0okPxT77ezA0sz4wBMOq"
+     sitekey = "6LdgmagUAAAAAFEuKe8r2PEkQ77me8pvh3A23oyb"
    
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]

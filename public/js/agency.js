@@ -55,14 +55,12 @@ $('.play-icon i').click(function () {
 // Async contact form
 $('form[id=contactForm]').submit(function () {
   $.post($(this).attr('action'), $(this).serialize(), function (data, textStatus, jqXHR) {
-    debugger;
     $('form[id=contactForm] #success').hide();
     $('form[id=contactForm] #error').hide();
     if (jqXHR.status == 200) {
       $('form[id=contactForm] #success').show();
     }
   }, 'json').fail(function () {
-    debugger;
     $('form[id=contactForm] #success').hide();
     $('form[id=contactForm] #error').hide();
     $('form[id=contactForm] #error').show();
